@@ -19,26 +19,26 @@ class SiteSettingsSeeder extends Seeder
         SiteSetting::updateOrCreate(
             ['id' => 1],
             [
-                'site_name' => 'Ali Zaki Poultry Equipment',
+                'site_name' => 'Tabarak',
 
-                'primary_color' => '#2E7D32',
-                'primary_dark_color' => '#1B5E20',
+                'primary_color' => '#55bce8',
+                'primary_dark_color' => '#168dcc',
 
-                'secondary_color' => '#263238',
-                'secondary_dark_color' => '#37474F',
+                'secondary_color' => '#061a2b',
+                'secondary_dark_color' => '#0b2b43',
 
-                'light_blue_color' => '#E8F5E9',
-                'light_color' => '#F7FAF7',
+                'light_blue_color' => '#dff4fc',
+                'light_color' => '#f5f8fa',
 
-                'white_color' => '#FFFFFF',
+                'white_color' => '#ffffff',
 
-                'text_color' => '#263238',
-                'muted_color' => '#6B777C',
+                'text_color' => '#182b3a',
+                'muted_color' => '#71808d',
 
-                'border_color' => '#DDE5DF',
+                'border_color' => '#dfe7ec',
 
                 'site_description' =>
-                    'المكتب الاستشاري المصري علي زكي لمعدات مزارع الدواجن، متخصص في توريد خطوط الشرب الأوتوماتيك وخطوط العلف وخلايا التبريد ومعدات مزارع الدواجن.',
+                    'شركة متخصصة في خدمات السقالات والمقاولات وتوفير حلول آمنة وعالية الجودة.',
             ]
         );
 
@@ -58,35 +58,32 @@ class SiteSettingsSeeder extends Seeder
             */
 
             'home' => [
-                'title_ar' =>
-                    'المكتب الاستشاري المصري علي زكي | معدات مزارع الدواجن',
-
-                'title_en' =>
-                    'Ali Zaki | Poultry Farm Equipment',
+                'title_ar' => 'تبـارك للسقالات والخدمات',
+                'title_en' => 'Tabarak Scaffolding & Services',
 
                 'description_ar' =>
-                    'المكتب الاستشاري المصري علي زكي لمعدات مزارع الدواجن، نوفر خطوط شرب أوتوماتيك بنظام الحلمات، خطوط علف Pan Feeder، خلايا تبريد ومعدات متنوعة لمزارع الدواجن.',
+                    'شركة تبـارك متخصصة في خدمات السقالات والحلول الإنشائية وتوفير خدمات آمنة وعالية الجودة.',
 
                 'description_en' =>
-                    'Ali Zaki Egyptian Consulting Office specializes in poultry farm equipment, including automatic nipple drinking lines, Pan Feeder feeding lines, cooling pads, and other poultry farm solutions.',
+                    'Tabarak specializes in scaffolding services and construction solutions with high-quality and safe services.',
 
                 'keywords_ar' =>
-                    'معدات مزارع الدواجن, خطوط شرب أوتوماتيك, خطوط شرب حلمات, خطوط علف Pan Feeder, خلايا تبريد, معدات دواجن, تجهيز مزارع الدواجن, علي زكي',
+                    'سقالات, سقالات معدنية, شركات سقالات, تأجير سقالات, تركيب سقالات',
 
                 'keywords_en' =>
-                    'poultry farm equipment, automatic drinking lines, nipple drinking system, Pan Feeder, cooling pads, poultry equipment, poultry farm solutions, Ali Zaki',
+                    'scaffolding, metal scaffolding, scaffolding company, scaffolding rental, scaffolding services',
 
                 'og_title_ar' =>
-                    'المكتب الاستشاري المصري علي زكي لمعدات مزارع الدواجن',
+                    'تبـارك للسقالات والخدمات',
 
                 'og_title_en' =>
-                    'Ali Zaki Poultry Farm Equipment',
+                    'Tabarak Scaffolding & Services',
 
                 'og_description_ar' =>
-                    'معدات وحلول موثوقة لمزارع الدواجن، تشمل خطوط الشرب وخطوط العلف وخلايا التبريد.',
+                    'حلول متكاملة وآمنة في مجال السقالات والخدمات الإنشائية.',
 
                 'og_description_en' =>
-                    'Reliable poultry farm equipment and solutions including drinking lines, feeding systems, and cooling pads.',
+                    'Professional and safe scaffolding and construction solutions.',
             ],
 
 
@@ -97,113 +94,104 @@ class SiteSettingsSeeder extends Seeder
             */
 
             'about' => [
-                'title_ar' =>
-                    'من نحن | المكتب الاستشاري المصري علي زكي',
-
-                'title_en' =>
-                    'About Us | Ali Zaki Poultry Equipment',
+                'title_ar' => 'من نحن | تبـارك للسقالات والخدمات',
+                'title_en' => 'About Us | Tabarak Scaffolding & Services',
 
                 'description_ar' =>
-                    'تعرف على المكتب الاستشاري المصري علي زكي وخبرتنا في توريد معدات وحلول مزارع الدواجن عالية الجودة.',
+                    'تعرف على شركة تبـارك وخبراتها في مجال السقالات والخدمات الإنشائية.',
 
                 'description_en' =>
-                    'Learn more about Ali Zaki Egyptian Consulting Office and our experience in supplying high-quality poultry farm equipment and solutions.',
+                    'Learn more about Tabarak and our experience in scaffolding and construction services.',
 
                 'keywords_ar' =>
-                    'من نحن, علي زكي, معدات مزارع الدواجن, شركة معدات دواجن, تجهيز مزارع الدواجن',
+                    'من نحن, تبـارك, شركة سقالات, خدمات إنشائية',
 
                 'keywords_en' =>
-                    'about Ali Zaki, poultry equipment company, poultry farm equipment, poultry farm solutions',
+                    'about tabarak, scaffolding company, construction services',
 
                 'og_title_ar' =>
-                    'من نحن - علي زكي لمعدات مزارع الدواجن',
+                    'من نحن - تبـارك',
 
                 'og_title_en' =>
-                    'About Ali Zaki Poultry Equipment',
+                    'About Tabarak',
 
                 'og_description_ar' =>
-                    'تعرف على خبرتنا ومنتجاتنا وحلولنا في مجال معدات مزارع الدواجن.',
+                    'تعرف على شركة تبـارك وخبراتها وخدماتها.',
 
                 'og_description_en' =>
-                    'Learn about our experience, products, and solutions for poultry farms.',
+                    'Learn more about Tabarak and our services.',
             ],
 
 
             /*
             |--------------------------------------------------------------------------
-            | Services / Products
+            | Services
             |--------------------------------------------------------------------------
             */
 
             'services' => [
-                'title_ar' =>
-                    'منتجاتنا | معدات مزارع الدواجن | علي زكي',
-
-                'title_en' =>
-                    'Products | Poultry Farm Equipment | Ali Zaki',
+                'title_ar' => 'خدماتنا | تبـارك للسقالات والخدمات',
+                'title_en' => 'Services | Tabarak Scaffolding & Services',
 
                 'description_ar' =>
-                    'اكتشف منتجات ومعدات مزارع الدواجن التي نوفرها، بما في ذلك خطوط الشرب الأوتوماتيك وخطوط العلف Pan Feeder وخلايا التبريد.',
+                    'اكتشف خدمات تبـارك المتخصصة في السقالات والحلول الإنشائية.',
 
                 'description_en' =>
-                    'Explore our poultry farm equipment, including automatic drinking lines, Pan Feeder feeding lines, cooling pads, and other poultry solutions.',
+                    'Discover Tabarak professional scaffolding and construction services.',
 
                 'keywords_ar' =>
-                    'منتجات دواجن, معدات دواجن, خطوط شرب, خطوط علف, Pan Feeder, خلايا تبريد, معدات مزارع',
+                    'خدمات السقالات, سقالات, تركيب سقالات, تأجير سقالات',
 
                 'keywords_en' =>
-                    'poultry products, poultry equipment, drinking lines, feeding lines, Pan Feeder, cooling pads',
+                    'scaffolding services, scaffolding installation, scaffolding rental',
 
                 'og_title_ar' =>
-                    'منتجاتنا - معدات مزارع الدواجن',
+                    'خدماتنا - تبـارك',
 
                 'og_title_en' =>
-                    'Our Products - Poultry Farm Equipment',
+                    'Our Services - Tabarak',
 
                 'og_description_ar' =>
-                    'مجموعة من معدات وحلول مزارع الدواجن عالية الجودة.',
+                    'مجموعة متكاملة من خدمات السقالات والحلول الإنشائية.',
 
                 'og_description_en' =>
-                    'A range of high-quality poultry farm equipment and solutions.',
+                    'Professional scaffolding and construction solutions.',
             ],
 
 
             /*
             |--------------------------------------------------------------------------
-            | Projects / Solutions
+            | Projects
             |--------------------------------------------------------------------------
             */
 
             'projects' => [
-                'title_ar' =>
-                    'حلول مزارع الدواجن | علي زكي',
-
-                'title_en' =>
-                    'Poultry Farm Solutions | Ali Zaki',
+                'title_ar' => 'مشروعاتنا | تبـارك للسقالات والخدمات',
+                'title_en' => 'Projects | Tabarak Scaffolding & Services',
 
                 'description_ar' =>
-                    'اكتشف حلول ومعدات مزارع الدواجن التي يوفرها المكتب الاستشاري المصري علي زكي لتلبية احتياجات المزارع الحديثة.',
+                    'تعرف على أبرز المشروعات التي نفذتها شركة تبـارك في مجال السقالات والخدمات الإنشائية.',
 
                 'description_en' =>
-                    'Explore poultry farm equipment and solutions provided by Ali Zaki to meet the requirements of modern poultry farms.',
+                    'Explore some of Tabarak’s major projects in scaffolding and construction services.',
 
                 'keywords_ar' =>
-                    'حلول مزارع الدواجن, معدات مزارع, تجهيز مزارع الدواجن, معدات دواجن, علي زكي',
+                    'مشروعات السقالات, مشاريع إنشائية, تبـارك, سقالات',
 
                 'keywords_en' =>
-                    'poultry farm solutions, poultry equipment, poultry farm setup, Ali Zaki',
+                    'scaffolding projects, construction projects, Tabarak',
 
                 'og_title_ar' =>
-                    'حلول مزارع الدواجن - علي زكي',
+                    'مشروعاتنا - تبـارك',
 
                 'og_title_en' =>
-                    'Poultry Farm Solutions - Ali Zaki',
+                    'Our Projects - Tabarak',
 
                 'og_description_ar' =>
-                    'معدات وحلول متنوعة لتجهيز وتشغيل مزارع الدواجن بكفاءة.',
+                    'استعرض مشروعات وأعمال شركة تبـارك.',
 
                 'og_description_en' =>
-                    'Reliable equipment and solutions for efficient poultry farm setup and operation.',
+                    'Explore Tabarak projects and completed work.',
             ],
 
 
@@ -214,35 +202,32 @@ class SiteSettingsSeeder extends Seeder
             */
 
             'contact' => [
-                'title_ar' =>
-                    'تواصل معنا | علي زكي لمعدات مزارع الدواجن',
-
-                'title_en' =>
-                    'Contact Us | Ali Zaki Poultry Equipment',
+                'title_ar' => 'تواصل معنا | تبـارك للسقالات والخدمات',
+                'title_en' => 'Contact Us | Tabarak Scaffolding & Services',
 
                 'description_ar' =>
-                    'تواصل مع المكتب الاستشاري المصري علي زكي للاستفسار عن معدات مزارع الدواجن وخطوط الشرب والعلف وخلايا التبريد.',
+                    'تواصل مع شركة تبـارك للاستفسار عن خدمات السقالات والحلول الإنشائية.',
 
                 'description_en' =>
-                    'Contact Ali Zaki for inquiries about poultry farm equipment, drinking lines, feeding systems, and cooling pads.',
+                    'Contact Tabarak for scaffolding services and construction solutions.',
 
                 'keywords_ar' =>
-                    'تواصل معنا, علي زكي, معدات دواجن, خطوط شرب, خطوط علف, خلايا تبريد',
+                    'تواصل معنا, شركة تبـارك, سقالات, خدمات إنشائية',
 
                 'keywords_en' =>
-                    'contact Ali Zaki, poultry equipment, drinking lines, feeding lines, cooling pads',
+                    'contact Tabarak, scaffolding, construction services',
 
                 'og_title_ar' =>
-                    'تواصل معنا - علي زكي لمعدات الدواجن',
+                    'تواصل معنا - تبـارك',
 
                 'og_title_en' =>
-                    'Contact Us - Ali Zaki Poultry Equipment',
+                    'Contact Us - Tabarak',
 
                 'og_description_ar' =>
-                    'تواصل معنا لمعرفة المنتجات المتاحة والحلول المناسبة لمزرعتك.',
+                    'تواصل معنا لمعرفة المزيد عن خدماتنا وحلولنا.',
 
                 'og_description_en' =>
-                    'Get in touch with us to learn about available products and the right solutions for your farm.',
+                    'Get in touch with us to learn more about our services.',
             ],
         ];
 
@@ -270,4 +255,3 @@ class SiteSettingsSeeder extends Seeder
         }
     }
 }
-        

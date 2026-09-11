@@ -15,7 +15,6 @@ class DatabaseSeeder extends Seeder
             CoreValueSeeder::class,
             ProjectSeeder::class,
                         SiteSettingsSeeder::class,
-                        HomeSectionSeeder::class,
 
         ]);
     }
