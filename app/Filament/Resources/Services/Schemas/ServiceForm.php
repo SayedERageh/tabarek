@@ -26,9 +26,29 @@ class ServiceForm
                             ->label('الوصف المختصر')
                             ->rows(3),
 
-                        RichEditor::make('description_ar')
-                            ->label('التفاصيل')
-                            ->columnSpanFull(),
+
+RichEditor::make('description_ar')
+    ->label('التفاصيل')
+    ->fileAttachmentsDisk('public')
+    ->fileAttachmentsDirectory('editor-images')
+    ->fileAttachmentsVisibility('public')
+    ->toolbarButtons([
+        'attachFiles',
+        'blockquote',
+        'bold',
+        'bulletList',
+        'codeBlock',
+        'h2',
+        'h3',
+        'italic',
+        'link',
+        'orderedList',
+        'redo',
+        'strike',
+        'underline',
+        'undo',
+    ])
+    ->columnSpanFull(),
                     ]),
 
                 Section::make('English Content')
@@ -43,7 +63,26 @@ class ServiceForm
 
                         RichEditor::make('description_en')
                             ->label('Description')
-                            ->columnSpanFull(),
+                       ->fileAttachmentsDisk('public')
+    ->fileAttachmentsDirectory('editor-images')
+    ->fileAttachmentsVisibility('public')
+    ->toolbarButtons([
+        'attachFiles',
+        'blockquote',
+        'bold',
+        'bulletList',
+        'codeBlock',
+        'h2',
+        'h3',
+        'italic',
+        'link',
+        'orderedList',
+        'redo',
+        'strike',
+        'underline',
+        'undo',
+    ])
+    ->columnSpanFull(),
                     ]),
 
                 Section::make('إعدادات الخدمة')

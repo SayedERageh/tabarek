@@ -27,9 +27,29 @@ class ProjectForm
                         TextInput::make('location_ar')
                             ->label('الموقع'),
 
-                        RichEditor::make('description_ar')
-                            ->label('وصف المشروع')
-                            ->columnSpanFull(),
+
+RichEditor::make('description_ar')
+    ->label('التفاصيل')
+    ->fileAttachmentsDisk('public')
+    ->fileAttachmentsDirectory('editor-images')
+    ->fileAttachmentsVisibility('public')
+    ->toolbarButtons([
+        'attachFiles',
+        'blockquote',
+        'bold',
+        'bulletList',
+        'codeBlock',
+        'h2',
+        'h3',
+        'italic',
+        'link',
+        'orderedList',
+        'redo',
+        'strike',
+        'underline',
+        'undo',
+    ])
+    ->columnSpanFull(),
                     ]),
 
                 Section::make('English')
@@ -44,9 +64,28 @@ class ProjectForm
                         TextInput::make('location_en')
                             ->label('Location'),
 
-                        RichEditor::make('description_en')
-                            ->label('Project Description')
-                            ->columnSpanFull(),
+RichEditor::make('description_en')
+    ->label('details')
+    ->fileAttachmentsDisk('public')
+    ->fileAttachmentsDirectory('editor-images')
+    ->fileAttachmentsVisibility('public')
+    ->toolbarButtons([
+        'attachFiles',
+        'blockquote',
+        'bold',
+        'bulletList',
+        'codeBlock',
+        'h2',
+        'h3',
+        'italic',
+        'link',
+        'orderedList',
+        'redo',
+        'strike',
+        'underline',
+        'undo',
+    ])
+    ->columnSpanFull(),
                     ]),
 
                 Section::make('إعدادات المشروع')
